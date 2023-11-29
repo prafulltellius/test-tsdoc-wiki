@@ -1,5 +1,3 @@
-@einstein/translate / [Modules](modules.md)
-
 # @einstein/translate
 
 ### Installation
@@ -40,8 +38,8 @@ import i18nWrapper, { getCurrentLocale } from '@einstein/translate';
 
 For More API configuration.
 
--   [i18nWrapper](i18nWrapper.md)
--   For all other API, Check out [here](modules.md)
+-   [i18nWrapper](packages/translate/docs/i18nWrapper.md)
+-   For all other API, Check out [here](packages/translate/docs/modules.md)
 
 This library exposes the i18n translation function on the windows as `window.__`.
 After setup wrap all your translation with `__` and it will replace with your translation.
@@ -62,4 +60,4 @@ __('LBL_NAME'); // fr->"Je m'appelle Einstein";
 ```
 
 **Note:-**<br/>
-`__` does not takes care of re-rendering i.e; Even you change the language,re-rendering or reloading needs to be taken care. We have exposed react specific APIs [here](modules.md).
+`__` does not takes care of re-rendering i.e; Even you change the language,re-rendering or reloading needs to be taken care. We have exposed react specific APIs [here](packages/translate/docs/modules.md).
