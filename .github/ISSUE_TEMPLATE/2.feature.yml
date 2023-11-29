@@ -1,0 +1,65 @@
+name: '💡 Feature Request'
+description: Create a new ticket for a new feature request
+title: '💡 [REQUEST] - <title>'
+labels: ['question']
+body:
+    - type: markdown
+      attributes:
+          value: |
+              Please provide a searchable summary of the issue in the title above ⬆️.
+
+              Thanks for contributing by creating an issue! ❤️
+    - type: checkboxes
+      attributes:
+          label: Duplicates
+          description: Please [search the history](https://github.com/Tellius/picasso/issues) to see if an issue already exists for the same problem.
+          options:
+              - label: I have searched the existing issues
+                required: true
+    - type: textarea
+      id: reference_issues
+      attributes:
+          label: 'Reference Issues'
+          description: Common issues
+          placeholder: '#Issues IDs'
+      validations:
+          required: false
+    - type: textarea
+      id: summary
+      attributes:
+          label: 'Summary'
+          description: Provide a brief explanation of the feature
+          placeholder: Describe in a few lines your feature request
+      validations:
+          required: true
+    - type: textarea
+      id: basic_example
+      attributes:
+          label: 'Basic Example'
+          description: Indicate here some basic examples of your feature.
+          placeholder: A few specific words about your feature request.
+      validations:
+          required: true
+    - type: checkboxes
+      attributes:
+          label: Latest version
+          description: We roll bug fixes, performance enhancements, and other improvements into new releases.
+          options:
+              - label: I have tested the latest version
+                required: true
+    - type: textarea
+      id: drawbacks
+      attributes:
+          label: 'Drawbacks'
+          description: What are the drawbacks/impacts of your feature request ?
+          placeholder: Identify the drawbacks and impacts while being neutral on your feature request
+      validations:
+          required: true
+    - type: textarea
+      id: unresolved_question
+      attributes:
+          label: 'Unresolved questions'
+          description: What questions still remain unresolved ?
+          placeholder: Identify any unresolved issues.
+      validations:
+          required: false

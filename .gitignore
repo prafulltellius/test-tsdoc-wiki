@@ -1,0 +1,9 @@
+node_modules
+dist
+tsconfig.tsbuildinfo
+packages/**/dist
+**/node_modules/**
+
+packages/**/coverage
+
+storybook-static

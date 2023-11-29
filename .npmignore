@@ -1,0 +1,4 @@
+packages/**/esbuild.config.mjs
+packages/**/tsconfig.json
+packages/**/jest.config.js
+packages/**/new.md

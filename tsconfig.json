@@ -1,0 +1,31 @@
+{
+    "compilerOptions": {
+        "target": "es6",
+        "lib": ["dom", "dom.iterable", "esnext"],
+        "allowJs": true,
+        "declaration": true,
+        "skipLibCheck": true,
+        "esModuleInterop": true,
+        "strict": true,
+        "module": "esnext",
+        "moduleResolution": "node",
+        "resolveJsonModule": true,
+        "isolatedModules": true,
+        "noEmit": false,
+        "noImplicitAny": false,
+        "paths": {},
+        "jsx": "react",
+        "strictNullChecks": true,
+        "strictFunctionTypes": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "pretty": true,
+        "preserveWatchOutput": true,
+        "types": ["node","jest", "@testing-library/jest-dom"]
+    },
+    "include": ["packages/**/src/*.ts", "packages/**/src/*.tsx"],
+    "exclude": [
+        "node_modules",
+        "**/node_modules",
+    ]
+}

@@ -1,0 +1,13 @@
+packages/**/dist
+**/node_modules/**
+.storybook
+packages/**/*.spec.ts
+packages/**/*.spec.tsx
+packages/**/coverage
+coverage
+babel.config.js
+**/*.config.ts
+**/*.config.base.ts
+**/.eslintrc.js
+esbuild.config.mjs
+setUpTests.ts
